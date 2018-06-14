@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>EdxAll</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Find roots of 2d degree equation</title>
+  <h1> Find roots of equation aX2 + bX + c = 0 </h1>
+</head>
+
+<body onload="initCoef()">
+  The coeff and roots of the equation ax2 + bx + c = 0  are as follows
+  <div id="coef"> </div>
+  <div id="roots"></div>
+  <button onclick="changeCoef();">Click me to change the coef randomly</button>
+  <button onclick="initCoef();">Click me to reset the coef to initial values</button>
+  <div id="inputCoef"> Enter your coef value: </div>
+  <input id="coefa" type=number value=1 oninput="computeAndDisplay(array(coefa.value,coefb.value,coefc.value));"> value: <input id="coefb" type=number value= 1 oninput="computeAndDisplay(array(coefa.value,coefb.value,coefc.value)); "> value: <input id="coefc" type="number" value = 1 oninput="computeAndDisplay(array(coefa.value,coefb.value,coefc.value)); ">
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
